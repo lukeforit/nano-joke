@@ -14,15 +14,12 @@ import com.google.api.client.extensions.android.json.AndroidJsonFactory;
 import com.google.api.client.googleapis.services.AbstractGoogleClientRequest;
 import com.google.api.client.googleapis.services.GoogleClientRequestInitializer;
 import com.rabbit.green.jokedisplay.JokeActivity;
-import com.rabbit.green.jokeslib.JokeTeller;
 import com.udacity.gradle.builditbigger.backend.jokeApi.JokeApi;
 
 import java.io.IOException;
 
 
 public class MainActivity extends AppCompatActivity {
-
-    private JokeTeller joker = new JokeTeller();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
